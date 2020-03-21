@@ -1,0 +1,6 @@
+use_frameworks!
+target 'Singularkey_Tests' do
+  pod 'Singularkey', :path => '../'
+  
+  
+end
