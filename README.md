@@ -1,6 +1,5 @@
 # Singularkey
 
-[![CI Status](https://img.shields.io/travis/Neetin Sharma/Singularkey.svg?style=flat)](https://travis-ci.org/Neetin Sharma/Singularkey)
 [![Version](https://img.shields.io/cocoapods/v/Singularkey.svg?style=flat)](https://cocoapods.org/pods/Singularkey)
 [![License](https://img.shields.io/cocoapods/l/Singularkey.svg?style=flat)](https://cocoapods.org/pods/Singularkey)
 [![Platform](https://img.shields.io/cocoapods/p/Singularkey.svg?style=flat)](https://cocoapods.org/pods/Singularkey)
