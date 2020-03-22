@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Singularkey'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of Singularkey.'
+  s.version          = '1.0.0'
+  s.summary          = 'Singularkey is Passwordless Storng Authentication Service Provider.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,26 +17,26 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'Singular Key harnesses the power hardware-grade (HSM) security and biometrics available on today\s devices to create strong, password free authentication solutions for enterprises; Our multi factor authentication service minimizes the possibility of scalable phishing and man-in-the-middle attacks attributed to 80% of cyber security breaches.'
 
-  s.homepage         = 'https://github.com/Neetin Sharma/Singularkey'
+  s.homepage         = 'https://github.com/singularkey/iosfido2demo'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Neetin Sharma' => 'return@neetin.com.np' }
-  s.source           = { :git => 'https://github.com/Neetin Sharma/Singularkey.git', :tag => s.version.to_s }
+  s.license          = { :type => 'Commercial', :text => 'See https://singularkey.com/' }
+  s.author           = { 'Singular Key Inc.' => 'neetin@singularkey.com' }
+  s.source           = { :http => 'https://singularkey.s3-us-west-2.amazonaws.com/ios/frameworks/singularkey/SingularKey-v1.0.0.zip'}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.swift_versions = '5.0'
+  s.ios.deployment_target = '12.1'
 
-  s.source_files = 'Singularkey/Classes/**/*'
+  s.source_files = 'Singularkey.framework/Headers/*.h'
   
   # s.resource_bundles = {
   #   'Singularkey' => ['Singularkey/Assets/*.png']
   # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.vendored_frameworks = 'SingularKey.framework'
+  s.public_header_files = 'SingularKey.framework/Headers/*.h'
+  
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

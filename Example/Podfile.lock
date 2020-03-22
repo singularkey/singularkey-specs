@@ -1,0 +1,16 @@
+PODS:
+  - Singularkey (0.1.0)
+
+DEPENDENCIES:
+  - Singularkey (from `../`)
+
+EXTERNAL SOURCES:
+  Singularkey:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Singularkey: 43c890ff1bc1437ea69af26a7b0efb19205f7d70
+
+PODFILE CHECKSUM: 7fac9ec62035cb08b6fbdee6ab238dcf6b8afa37
+
+COCOAPODS: 1.7.2
