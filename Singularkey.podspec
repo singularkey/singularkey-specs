@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/singularkey/iosfido2demo'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'Commercial', :text => 'See https://singularkey.com/' }
-  s.author           = { 'Singular Key Inc.' => 'neetin@singularkey.com' }
+  s.author           = { 'Singular Key Inc.' => 'info@singularkey.com' }
   s.source           = { :http => 'https://singularkey.s3-us-west-2.amazonaws.com/ios/frameworks/singularkey/SingularKey-v1.0.0.zip'}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
