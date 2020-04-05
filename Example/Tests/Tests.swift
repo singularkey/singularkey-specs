@@ -1,5 +1,5 @@
 import XCTest
-import Singularkey
+import SingularKey
 
 class Tests: XCTestCase {
     
