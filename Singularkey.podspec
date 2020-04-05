@@ -29,13 +29,13 @@ Pod::Spec.new do |s|
   s.swift_versions = '5.0'
   s.ios.deployment_target = '12.1'
 
-  s.source_files = 'Singularkey.framework/Headers/*.h'
+  # s.source_files = 'Singularkey.framework/Headers/*.h'
   
   # s.resource_bundles = {
   #   'Singularkey' => ['Singularkey/Assets/*.png']
   # }
-  s.vendored_frameworks = 'SingularKey.framework'
-  s.public_header_files = 'SingularKey.framework/Headers/*.h'
+  s.ios.vendored_frameworks = 'SingularKey.framework'
+  # s.public_header_files = 'SingularKey.framework/Headers/*.h'
   
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
