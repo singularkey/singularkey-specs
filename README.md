@@ -21,7 +21,7 @@ pod 'Singularkey'
 
 ## Author
 
-Neetin Sharma, return@neetin.com.np
+Singular Key Inc., info@singularkey.com
 
 ## License
 
