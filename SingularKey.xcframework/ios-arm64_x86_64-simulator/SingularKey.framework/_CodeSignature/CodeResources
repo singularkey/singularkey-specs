@@ -14,55 +14,55 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		2Ug486zTOEdFsRE0KL1vM46yy8I=
+		2HxFk8UtFsZVkgjs4Y4ykCyYUOc=
 		</data>
 		<key>Modules/SingularKey.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ig+ku/VPGCWfTEkWb7H5A4ODX0Q=
+		VPhAnhIUT6PQq10fFVA7tyvzoaQ=
 		</data>
 		<key>Modules/SingularKey.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		D4ZU0nsaTsNcRglpZYWGxzNbvZw=
+		Oa6Ikc5Wh8vz68PtZgOy49X1WXk=
 		</data>
 		<key>Modules/SingularKey.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1HOv1JFCCExEVMKn+ViHrhux28M=
+		E2Q3mdcIU51FjSRbHXUXmywjm0I=
 		</data>
 		<key>Modules/SingularKey.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		ig+ku/VPGCWfTEkWb7H5A4ODX0Q=
+		VPhAnhIUT6PQq10fFVA7tyvzoaQ=
 		</data>
 		<key>Modules/SingularKey.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		D4ZU0nsaTsNcRglpZYWGxzNbvZw=
+		Oa6Ikc5Wh8vz68PtZgOy49X1WXk=
 		</data>
 		<key>Modules/SingularKey.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		1HOv1JFCCExEVMKn+ViHrhux28M=
+		E2Q3mdcIU51FjSRbHXUXmywjm0I=
 		</data>
 		<key>Modules/SingularKey.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		/Od9UsfP/fxiHV+aMs87itlojGc=
+		oLiSS3AD2M/jTYXhMuO9a6wfVKg=
 		</data>
 		<key>Modules/SingularKey.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		DWjbgTj9vJia7SQf7yz3b5v00uQ=
+		fkashkE6q80FlHLqX/Y7sBjtPrA=
 		</data>
 		<key>Modules/SingularKey.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		oF5sziRceoOqR6M6VKYvOOgr2MM=
+		B/BF3g5mC+uroavL2Djb6q/NYGw=
 		</data>
 		<key>Modules/SingularKey.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		/Od9UsfP/fxiHV+aMs87itlojGc=
+		oLiSS3AD2M/jTYXhMuO9a6wfVKg=
 		</data>
 		<key>Modules/SingularKey.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		DWjbgTj9vJia7SQf7yz3b5v00uQ=
+		fkashkE6q80FlHLqX/Y7sBjtPrA=
 		</data>
 		<key>Modules/SingularKey.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		oF5sziRceoOqR6M6VKYvOOgr2MM=
+		B/BF3g5mC+uroavL2Djb6q/NYGw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -89,84 +89,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			h/ppa/ofnrmsxo6BmGslqQpgIArKDYvFqUskuh88+Rg=
+			4bgyz+mbcXN880i+iOy7zh/7lr184e9F8WbUeI7p5e8=
 			</data>
 		</dict>
 		<key>Modules/SingularKey.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RnbiQJZVyw+Wv7pxr5VJDVhHQptNT3Gsd9pDwyBfIoE=
+			GIid5Dq+w+qMsqVDgfbskbAg8bIJ5VNSzrhARKov3bE=
 			</data>
 		</dict>
 		<key>Modules/SingularKey.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VvpL8+nGTu5gmGkZ3Ixc1dQEBOeGgI401VDhfVFveCw=
+			2eNknN3gNX3fr/Q8keDo5EJimtszeOWO521Uk90mNHY=
 			</data>
 		</dict>
 		<key>Modules/SingularKey.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			h/ppa/ofnrmsxo6BmGslqQpgIArKDYvFqUskuh88+Rg=
+			4bgyz+mbcXN880i+iOy7zh/7lr184e9F8WbUeI7p5e8=
 			</data>
 		</dict>
 		<key>Modules/SingularKey.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RnbiQJZVyw+Wv7pxr5VJDVhHQptNT3Gsd9pDwyBfIoE=
+			GIid5Dq+w+qMsqVDgfbskbAg8bIJ5VNSzrhARKov3bE=
 			</data>
 		</dict>
 		<key>Modules/SingularKey.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VvpL8+nGTu5gmGkZ3Ixc1dQEBOeGgI401VDhfVFveCw=
+			2eNknN3gNX3fr/Q8keDo5EJimtszeOWO521Uk90mNHY=
 			</data>
 		</dict>
 		<key>Modules/SingularKey.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WtHlx/rc/sIBV2kaERUIYSzgzDZYyCD3LRyt9QsEte0=
+			dECSlbygdJrZUcptrMACnUNHMn3VjFY02LpRSGMUXQ4=
 			</data>
 		</dict>
 		<key>Modules/SingularKey.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			byg3FEuKZRiJiTpOXSNAdJqNxY9IhO6QoY+pEaOqABE=
+			+H0TaDSAOWwySX/pkOHTBsKhHUXyYyDyjYFDpS2XMAc=
 			</data>
 		</dict>
 		<key>Modules/SingularKey.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mkLgE0bRwaV68XjLPSPi7E5Qi32MPWCclWnLau6r2p4=
+			xXcNezaMEpmHgiAh7xBJqEiJJ80w3iwx3Trcv4vIdxw=
 			</data>
 		</dict>
 		<key>Modules/SingularKey.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WtHlx/rc/sIBV2kaERUIYSzgzDZYyCD3LRyt9QsEte0=
+			dECSlbygdJrZUcptrMACnUNHMn3VjFY02LpRSGMUXQ4=
 			</data>
 		</dict>
 		<key>Modules/SingularKey.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			byg3FEuKZRiJiTpOXSNAdJqNxY9IhO6QoY+pEaOqABE=
+			+H0TaDSAOWwySX/pkOHTBsKhHUXyYyDyjYFDpS2XMAc=
 			</data>
 		</dict>
 		<key>Modules/SingularKey.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mkLgE0bRwaV68XjLPSPi7E5Qi32MPWCclWnLau6r2p4=
+			xXcNezaMEpmHgiAh7xBJqEiJJ80w3iwx3Trcv4vIdxw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
