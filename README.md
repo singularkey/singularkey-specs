@@ -41,7 +41,7 @@ func credentialsCreate(rpId: String, origin: String, modality: SecAccessControlC
 import SingularKey
 
 let credManager = CredentialsManager()
-credManager.credentialsCreate(rpId: Config.rpId, origin: Config.origin, modality: modality, json: json) { (result, error) in
+credManager.credentialsCreate(rpId: <YOUR_RPID>, origin: <YOUR_ORIGIN>, modality: SecAccessControlCreateFlags.biometryAny, json: json) { (result, error) in
     if let err = error {
       // handle error
       return
@@ -83,7 +83,7 @@ func credentialsGet(rpId: String, origin: String, json: [String : AnyObject], ca
 import SingularKey
 
 let credManager = CredentialsManager()
-credManager.credentialsGet(rpId: Config.rpId, origin: Config.origin, json: json) { (result, error) in
+credManager.credentialsGet(rpId: <YOUR_RPID>, origin: <YOUR_ORIGIN>, json: json) { (result, error) in
     if let err = error {
       // handle error
       return
