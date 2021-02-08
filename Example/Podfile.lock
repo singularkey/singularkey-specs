@@ -1,5 +1,5 @@
 PODS:
-  - Singularkey (1.0.0)
+  - Singularkey (1.0.3)
 
 DEPENDENCIES:
   - Singularkey (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Singularkey: c9ca24e9427b8460094cbd93b0e6e982d1268810
+  Singularkey: df03c7c8361512a9e6447969ac3641114364d3ff
 
-PODFILE CHECKSUM: 7fac9ec62035cb08b6fbdee6ab238dcf6b8afa37
+PODFILE CHECKSUM: 305b5fb038a6b30b63916695096545f0e7c04e93
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.10.1

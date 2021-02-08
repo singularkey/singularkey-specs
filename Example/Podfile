@@ -1,6 +1,4 @@
 use_frameworks!
-target 'Singularkey_Tests' do
+target 'iOSFido2Demo' do
   pod 'Singularkey', :path => '../'
-  
-  
 end
