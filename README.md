@@ -34,7 +34,7 @@ You can use this function to create/add credentials. You will have to handle pub
   - Parameter json: It is a json response you get from your FIDO server.
   - Parameter callback: It is a response closure. Response will be result and error. Both result and error are optional
 */
-func credentialsCreate(rpId: String, origin: String, modality: SecAccessControlCreateFlags, json: [String : AnyObject], callback:@escaping (_ result: [String : Any]?, _ error: Error?) -> ()) {}
+func credentialsCreate(rpId: String, origin: String, modality: SecAccessControlCreateFlags?, json: [String : AnyObject], callback:@escaping (_ result: [String : Any]?, _ error: Error?) -> ()) {}
 
 
 // example
