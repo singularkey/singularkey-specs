@@ -32,16 +32,18 @@ You can use this function to create/add credentials. You will have to handle pub
   - Parameter origin: iOS app's bundle Id.
   - Parameter modality: The available modality option will be available here: https://developer.apple.com/documentation/security/secaccesscontrolcreateflags
   - Parameter json: It is a json response you get from your FIDO server.
+  - Parameter userPresent: It is a flag for user present. You can discard it if you are sending modality
+  - Parameter userVerified: It is a flag for user verification. You can discard if you are sending modality
   - Parameter callback: It is a response closure. Response will be result and error. Both result and error are optional
 */
-func credentialsCreate(rpId: String, origin: String, modality: SecAccessControlCreateFlags?, json: [String : AnyObject], callback:@escaping (_ result: [String : Any]?, _ error: Error?) -> ()) {}
+func credentialsCreate(rpId: String, origin: String, modality: SecAccessControlCreateFlags?, json: [String : AnyObject], userPresent: Bool?, userVerified: Bool?, callback:@escaping (_ result: [String : Any]?, _ error: Error?) -> ()) {}
 
 
 // example
 import SingularKey
 
 let credManager = CredentialsManager()
-credManager.credentialsCreate(rpId: <YOUR_RPID>, origin: <YOUR_ORIGIN>, modality: SecAccessControlCreateFlags.biometryAny, json: json) { (result, error) in
+credManager.credentialsCreate(rpId: <YOUR_RPID>, origin: <YOUR_ORIGIN>, modality: SecAccessControlCreateFlags?, json: json, userPresent: Bool = true, userVerified: Bool = true, ) { (result, error) in
     if let err = error {
       // handle error
       return
@@ -75,9 +77,11 @@ You can use this function to find the stored credentials and compare with the pr
   - Parameter rpId: Relaying Party Id.
   - Parameter origin: iOS app's bundle.
   - Parameter json: It is a json you get from your FIDO server.
+  - Parameter userPresent: It is a flag for whether user is preseted or not. You can pass nil to discard if you are not using this flag
+  - Parameter userVerified: It is a flag for whether user is verified or not. You can pass nil to discard if you are not using this flag
   - Parameter callback: It is a response closure. Response will be result and error. Both result and error are optional
 */
-func credentialsGet(rpId: String, origin: String, json: [String : AnyObject], callback: @escaping (_ result: [String: Any]?, _ errorMessage: String?) -> ()) {}
+func credentialsGet(rpId: String, origin: String, json: [String : AnyObject], userPresent: Bool?, userVerified: Bool?, callback: @escaping (_ result: [String: Any]?, _ errorMessage: String?) -> ()) {}
 
 // example
 import SingularKey

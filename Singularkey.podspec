@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Singularkey'
-  s.version          = '1.0.4'
+  s.version          = '1.0.5'
   s.summary          = 'Singularkey is Passwordless Storng Authentication Service Provider.'
 
 # This description is used to generate tags and improve search results.
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'Commercial', :text => 'See https://singularkey.com/' }
   s.author           = { 'Singular Key Inc.' => 'info@singularkey.com' }
-  s.source           = { :http => 'https://singularkey.s3-us-west-2.amazonaws.com/ios/frameworks/singularkey/SingularKey-v1.0.4.zip'}
+  s.source           = { :http => 'https://singularkey.s3-us-west-2.amazonaws.com/ios/frameworks/singularkey/SingularKey-v1.0.5.zip'}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.swift_versions = '5.3'

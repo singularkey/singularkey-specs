@@ -54,6 +54,12 @@ struct LoginViewModel {
           return
         }
         guard let success = json["success"] as? Int else {
+          if let statusCode = json["statusCode"] as? Int,
+             statusCode == 400,
+             let message = json["message"] as? String {
+            callback(message)
+            return
+          }
           callback("Invalid Response!")
           return
         }
